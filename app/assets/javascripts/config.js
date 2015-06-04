@@ -7,7 +7,8 @@ System.config({
     ]
   },
   "paths": {
-    "*": "*",
+    "*": "*.es6",
+    "*.js": "*.js",
     "github:*": "jspm_packages/github/*.js",
     "npm:*": "jspm_packages/npm/*.js"
   }
