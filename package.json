@@ -1,10 +1,8 @@
 {
   "jspm": {
     "directories": {
-      "baseURL": "assets",
-      "packages": "app/assets/javascripts/jspm_packages"
+      "baseURL": "app/assets/javascripts"
     },
-    "configFile": "app/assets/javascripts/config.js",
     "dependencies": {
       "jquery": "github:components/jquery@^2.1.4"
     },

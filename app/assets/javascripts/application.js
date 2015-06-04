@@ -12,6 +12,5 @@
 //
 //= require jspm_packages/system.js
 //= require config.js
-//= require_self
 
-System.load(<%= javascript_path('welcome.js').to_json %>);
+System.import('app/main');
